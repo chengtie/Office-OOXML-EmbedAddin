@@ -52,9 +52,9 @@ namespace Office_OOXML_EmbedAddin
         // Generates content of webExtensionPart1.
         private static void GenerateWebExtensionPart1Content(WebExtensionPart webExtensionPart1, string snippetID)
         {
-            We.WebExtension webExtension1 = new We.WebExtension() { Id = "{635BF0CD-42CC-4174-B8D2-6D375C9A759E}" };
+            We.WebExtension webExtension1 = new We.WebExtension() { Id = "{97b0c1fd-b480-46ef-a593-d88f736fc70e}" };
             webExtension1.AddNamespaceDeclaration("we", "http://schemas.microsoft.com/office/webextensions/webextension/2010/11");
-            We.WebExtensionStoreReference webExtensionStoreReference1 = new We.WebExtensionStoreReference() { Id = "wa104380862", Version = "1.1.0.0", Store = "en-US", StoreType = "OMEX" };
+            We.WebExtensionStoreReference webExtensionStoreReference1 = new We.WebExtensionStoreReference() { Id = "WA200001584", Version = "1.0.0.0", Store = "en-US", StoreType = "OMEX" };
             We.WebExtensionReferenceList webExtensionReferenceList1 = new We.WebExtensionReferenceList();
 
             We.WebExtensionPropertyBag webExtensionPropertyBag1 = new We.WebExtensionPropertyBag();
